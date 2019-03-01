@@ -21,6 +21,7 @@ module.exports = {
   ],
   plugins: ["@typescript-eslint"],
   rules: {
-    "@typescript-eslint/explicit-function-return-type": "off"
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "react/prop-types": false
   }
 };
