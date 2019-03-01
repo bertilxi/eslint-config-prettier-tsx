@@ -4,8 +4,8 @@ module.exports = {
       jsx: true
     }
   },
-  extends: ["prettier-tsx", "plugin:react/recommended"],
+  extends: ["prettier-ts", "plugin:react/recommended"],
   rules: {
-    "react/prop-types": false
+    "react/prop-types": 'off'
   }
 };
